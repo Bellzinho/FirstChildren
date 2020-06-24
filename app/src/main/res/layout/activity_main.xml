@@ -10,7 +10,7 @@
         android:id="@+id/imageView"
         android:layout_width="247dp"
         android:layout_height="239dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="28dp"
         android:adjustViewBounds="true"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,22 +19,20 @@
         app:srcCompat="@drawable/imc" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextAltura"
         android:layout_width="162dp"
         android:layout_height="45dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginTop="72dp"
         android:ems="10"
         android:hint="Digite sua altura:"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:textAlignment="center"
-        app:layout_constraintEnd_toStartOf="@+id/editText2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editTextPeso"
         android:layout_width="162dp"
         android:layout_height="45dp"
         android:layout_marginEnd="32dp"
@@ -43,7 +41,7 @@
         android:inputType="numberDecimal"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editText" />
+        app:layout_constraintTop_toTopOf="@+id/editTextAltura" />
 
     <TextView
         android:id="@+id/textView"
@@ -63,12 +61,13 @@
         android:id="@+id/button"
         android:layout_width="214dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="96dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/botton_ripple"
         android:backgroundTint="#04B2D9"
+        android:onClick="redirecionar"
         android:stateListAnimator="@null"
         android:text="Calcular"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAltura" />
 </androidx.constraintlayout.widget.ConstraintLayout>
