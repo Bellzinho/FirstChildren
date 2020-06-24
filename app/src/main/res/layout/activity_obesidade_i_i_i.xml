@@ -24,14 +24,15 @@
         android:layout_marginTop="32dp"
         android:fontFamily="@font/allerta"
         android:text="Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas. O tratamento deve ser ainda mais urgente."
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="316dp"
+        android:layout_height="46dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/alike_angular"

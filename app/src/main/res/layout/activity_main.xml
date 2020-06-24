@@ -20,12 +20,12 @@
 
     <EditText
         android:id="@+id/editTextAltura"
-        android:layout_width="185dp"
+        android:layout_width="140dp"
         android:layout_height="45dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="72dp"
         android:ems="10"
-        android:hint="Digite sua altura em metros"
+        android:hint="Altura em metros"
         android:inputType="numberDecimal"
         android:textAlignment="center"
         android:textSize="14sp"
@@ -34,11 +34,11 @@
 
     <EditText
         android:id="@+id/editTextPeso"
-        android:layout_width="185dp"
+        android:layout_width="140dp"
         android:layout_height="45dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="32dp"
         android:ems="10"
-        android:hint="Digite seu peso em Kg"
+        android:hint="Peso em Kg"
         android:inputType="numberDecimal"
         android:textAlignment="center"
         android:textSize="14sp"
@@ -63,13 +63,13 @@
         android:id="@+id/button"
         android:layout_width="214dp"
         android:layout_height="49dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginBottom="75dp"
         android:background="@drawable/botton_ripple"
         android:backgroundTint="#04B2D9"
         android:onClick="redirecionar"
         android:stateListAnimator="@null"
         android:text="Calcular"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextAltura" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
