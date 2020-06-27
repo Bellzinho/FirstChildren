@@ -9,13 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ObesidadeIII"></activity>
-        <activity android:name=".ObesidadeII" />
-        <activity android:name=".ObesidadeI" />
-        <activity android:name=".SobrePeso" />
-        <activity android:name=".Abaixo" />
-        <activity android:name=".Imc_peso_Ideal" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ObesidadeIII"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".ObesidadeII"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ObesidadeI"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".SobrePeso"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Abaixo"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Imc_peso_Ideal"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

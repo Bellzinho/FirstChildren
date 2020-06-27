@@ -23,7 +23,7 @@ public class ObesidadeII extends AppCompatActivity {
 
         if (imc != null){
             double resultimc = imc.getDouble("chave_imc");
-            resultado.setText("Seu imc é: " + resultimc);
+            resultado.setText(String.format("Seu imc é: %.02f", resultimc));
         }
     }
 }

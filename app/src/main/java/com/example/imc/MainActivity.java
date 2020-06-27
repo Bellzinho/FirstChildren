@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         double peso = Double.parseDouble(editTextPeso.getText().toString());
         double resultado = peso/(altura * altura);
 
+
         //  Nota mental: Fazer o if dentro de uma segunda activity seria melhor,
         //  diminuindo o numero de activitys e setando texto e imagem de acordo com o resultado do if
         if (resultado < 18.5){
