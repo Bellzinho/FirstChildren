@@ -36,8 +36,10 @@
         android:layout_marginStart="32dp"
         android:layout_marginBottom="30dp"
         android:background="@drawable/botton_ripple"
-        android:backgroundTint="#000000"
-        android:textColor="#FFFFFF"
+        android:backgroundTint="#8BC34A"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#171717"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

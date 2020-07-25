@@ -28,6 +28,7 @@
         android:hint="Altura em metros"
         android:inputType="numberDecimal"
         android:textAlignment="center"
+        android:textColor="#212121"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -41,6 +42,7 @@
         android:hint="Peso em Kg"
         android:inputType="numberDecimal"
         android:textAlignment="center"
+        android:textColor="#212121"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/editTextAltura" />
@@ -52,7 +54,7 @@
         android:layout_marginTop="52dp"
         android:fontFamily="@font/allerta"
         android:text="IMC - CALCULADORA"
-        android:textColor="#262222"
+        android:textColor="#212121"
         android:textSize="24sp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,13 +65,16 @@
         android:id="@+id/button"
         android:layout_width="214dp"
         android:layout_height="49dp"
+        android:layout_marginTop="32dp"
         android:layout_marginBottom="75dp"
         android:background="@drawable/botton_ripple"
-        android:backgroundTint="#04B2D9"
+        android:backgroundTint="#009688"
         android:onClick="redirecionar"
         android:stateListAnimator="@null"
         android:text="Calcular"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAltura" />
 </androidx.constraintlayout.widget.ConstraintLayout>
